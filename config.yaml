@@ -1,0 +1,15 @@
+news_sources:
+  - http://feeds.bbci.co.uk/news/uk/rss.xml
+  - http://feeds.bbci.co.uk/news/technology/rss.xml
+
+port: ":8080"
+cache_ttl: 30s
+db:
+  host: "database"
+  port: "5432"
+  user: "user"
+  password: "password"
+  db_name: "news-app"
+
+
+
